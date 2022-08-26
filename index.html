@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html id="html-element">
+  <head>
+    <link href="./styles.css" rel="stylesheet">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' 'unsafe-inline';"
+    />
+  </head>
+  <div id="wrapper">
+    <div>
+      <div>iframe:</div>
+      <iframe id="iframe-element" src="./textarea.html"></iframe>
+    </div>
+    <div>
+      <div>webview:</div>
+      <webview id="webview-element" src="./textarea.html"></webview>
+    </div>
+  </div>
+</html>

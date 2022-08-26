@@ -1,0 +1,36 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+body {
+  margin: 10px;
+  padding: 0;
+}
+
+div {
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px;
+}
+
+#wrapper {
+  display:flex;
+  position: fixed;
+  top:0
+}
+
+webview {
+  min-height: fit-content;
+  height: 600px;
+}
+
+iframe {
+  min-height: fit-content;
+  height: 600px;
+}
+
+html {
+  position: fixed;
+  top: 0;
+}
